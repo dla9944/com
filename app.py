@@ -6,12 +6,12 @@ import streamlit as st
 st.set_page_config("1980's P vs 2020's P")
 
 
-# st.image(
-#     "https://rlyfaazj0.toastcdn.net/20221019/145434.523656000/106827397_1.png", #카메라
-#     width=120,
-# )
+ st.image(
+     "https://rlyfaazj0.toastcdn.net/20221019/145434.523656000/106827397_1.png", #카메라
+     width=120,
+ )
 
-# st.header("J. Webb Space Telescope vs Hubble Telescope")
+ st.header(""1980's P vs 2020's P"")
 
 # st.write("")
 # "This is a reproduction of the fantastic [WebbCompare](https://www.webbcompare.com/index.html) app by [John Christensen](https://twitter.com/JohnnyC1423). It's built in Streamlit and takes only 10 lines of Python code. If you like this app, please star [John's original repo](https://github.com/JohnEdChristensen/WebbCompare)!"
