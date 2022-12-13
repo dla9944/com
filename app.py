@@ -17,13 +17,15 @@ st.write("")
 "This web is a site where you can know the fashion from the past to the present.!"
 st.write("")
 
-# st.markdown("### Southern Nebula")
-# image_comparison(
-#     img1="https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg",
-#     img2="https://www.webbcompare.com/img/webb/southern_nebula_700.jpg",
-#     label1="Hubble",
-#     label2="Webb",
-# )
+st.markdown("### 1980's P")
+image_comparison(
+    img1="https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg",
+    img2="https://www.webbcompare.com/img/webb/southern_nebula_700.jpg",
+    # img3=
+    # img4=
+    label1="Hubble",
+    label2="Webb",
+)
 
 
 # st.markdown("### Galaxy Cluster SMACS 0723")
