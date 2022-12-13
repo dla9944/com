@@ -19,12 +19,7 @@ st.write("")
 
 st.markdown("### 1980's P")
 st.image(
-    img1="https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg",
-    img2="https://www.webbcompare.com/img/webb/southern_nebula_700.jpg",
-    # img3=
-    # img4=
-    label1="Hubble",
-    label2="Webb",
+    "https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg",
 )
 
 
