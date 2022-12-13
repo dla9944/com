@@ -13,7 +13,7 @@ st.image(
 
 st.header("1980's P vs 2020's P")
 
- st.write("")
+st.write("")
  "This web is a site where you can know the fashion from the past to the present.("")
 
 # st.markdown("### Southern Nebula")
