@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_image_comparison import image_comparison
+#from streamlit_image_comparison import image_comparison
 #import cv2
 
 
