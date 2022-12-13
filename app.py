@@ -22,7 +22,7 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
    st.header("Spring")
-   st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
+   st.image("./COM/1980패션 봄.jpg")
 
 with col2:
    st.header("Summer")
