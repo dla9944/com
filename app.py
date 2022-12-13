@@ -18,7 +18,7 @@ st.write("")
 st.write("")
 
 st.markdown("### 1980's P")
-image_comparison(
+st.image(
     img1="https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg",
     img2="https://www.webbcompare.com/img/webb/southern_nebula_700.jpg",
     # img3=
