@@ -15,7 +15,7 @@ st.header("1980's P vs 2020's P")
 
  st.write("")
  "This is a reproduction of the fantastic [WebbCompare](https://www.webbcompare.com/index.html) app by [John Christensen](https://twitter.com/JohnnyC1423). It's built in Streamlit and takes only 10 lines of Python code. If you like this app, please star [John's original repo](https://github.com/JohnEdChristensen/WebbCompare)!"
-# st.write("")
+ st.write("")
 
 # st.markdown("### Southern Nebula")
 # image_comparison(
