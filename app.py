@@ -38,27 +38,20 @@ with col4:
 
 
 st.markdown("### 2022's Fashion")
-image_comparison(
-    img1="https://www.webbcompare.com/img/hubble/deep_field_700.jpg",
-    img2="https://www.webbcompare.com/img/webb/deep_field_700.jpg",
-    label1="Hubble",
-    label2="Webb",
-)
+col1, col2, col3, col4 = st.columns(4)
 
-st.markdown("### Carina Nebula")
-image_comparison(
-    img1="https://www.webbcompare.com/img/hubble/carina_2800.png",
-    img2="https://www.webbcompare.com/img/webb/carina_2800.jpg",
-    label1="Hubble",
-    label2="Webb",
-)
+with col1:
+   st.header("Spring")
+   st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
 
-st.markdown("### Stephan's Quintet")
-image_comparison(
-    img1="https://www.webbcompare.com/img/hubble/stephans_quintet_2800.jpg",
-    img2="https://www.webbcompare.com/img/webb/stephans_quintet_2800.jpg",
-    label1="Hubble",
-    label2="Webb",
-)
+with col2:
+   st.header("Summer")
+   st.image("https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg")
 
+with col3:
+    st.header("Fall")
+    st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
 
+with col4:
+    st.header("Winter")
+    st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
