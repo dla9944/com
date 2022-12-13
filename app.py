@@ -1,6 +1,6 @@
 import streamlit as st
-from streamlit_image_comparison import image_comparison
-import cv2
+# from streamlit_image_comparison import image_comparison
+# import cv2
 
 
 st.set_page_config("1980's P vs 2020's P")
