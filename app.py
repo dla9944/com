@@ -18,7 +18,7 @@ st.write("")
 st.write("")
 
 st.markdown("### 1980's P")
-col1, col2 = st.columns(2)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
    st.header("1980's winter")
@@ -27,6 +27,15 @@ with col1:
 with col2:
    st.header("A dog")
    st.image("https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg")
+
+with col3:
+    st.header("1980's winter")
+    st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
+
+with col4:
+    st.header("1980's winter")
+    st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
+
 
 # st.markdown("### Galaxy Cluster SMACS 0723")
 # image_comparison(
