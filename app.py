@@ -21,19 +21,19 @@ st.markdown("### 1980's Fashion")
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-   st.header("1980's winter")
+   st.header("Spring")
    st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
 
 with col2:
-   st.header("A dog")
+   st.header("Summer")
    st.image("https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg")
 
 with col3:
-    st.header("1980's winter")
+    st.header("Fall")
     st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
 
 with col4:
-    st.header("1980's winter")
+    st.header("Winter")
     st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
 
 
